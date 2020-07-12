@@ -1,1 +1,25 @@
+```
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	float a,b, re;
+	char fh;
+	printf("请输入运算符号\n");
+	scanf("%c",&fh);
+	printf("请输入第一个数\n");	
+	scanf("%f",&a);
+	printf("请输入第二个数\n"); 
+	scanf("%f",&b);
+	if(fh=='+')
+	re=a+b;
+	if(fh=='-')
+	re=a-b;
+	if(fh=='*') 
+	re=a*b;
+	if(fh=='/')
+	re=a/b;
+	printf("%f\n",re);  
 
+}
+```
